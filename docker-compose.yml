@@ -1,0 +1,34 @@
+version: "3.6"
+
+services:
+  db:
+    image: "postgres:11"
+
+    environment:
+      #      - "POSTGRES_HOST_AUTH_METHOD=trust"
+      - POSTGRES_DB=food_drf
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+  web:
+    build: .
+    command: >
+      sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8080"
+    volumes:
+      - .:/code
+      - media:/code/media/
+    ports:
+      - 8080:8080
+    environment:
+      - DB_HOST=db
+      - DB_NAME=food_drf
+      - DB_USER=postgres
+      - DB_PASS=postgres
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
+  media:
+
