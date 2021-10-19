@@ -1,0 +1,24 @@
+{
+  "options": [
+    {
+      "id": 30101,
+      "name": "No sugar",
+      "price": 0
+    },
+    {
+      "id": 30102,
+      "name": "Minimum sugar",
+      "price": 0
+    },
+    {
+      "id": 30103,
+      "name": "Normal sugar",
+      "price": 0
+    },
+    {
+      "id": 30104,
+      "name": "Maximum sugar",
+      "price": 0
+    }
+  ]
+}

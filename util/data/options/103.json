@@ -1,0 +1,24 @@
+{
+  "options": [
+    {
+      "id": 10301,
+      "name": "No mustard",
+      "price": 0
+    },
+    {
+      "id": 10302,
+      "name": "Minimum mustard",
+      "price": 0
+    },
+    {
+      "id": 10303,
+      "name": "Normal mustard",
+      "price": 0
+    },
+    {
+      "id": 10304,
+      "name": "Maximum mustard",
+      "price": 0
+    }
+  ]
+}

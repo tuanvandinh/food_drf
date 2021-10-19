@@ -1,0 +1,22 @@
+{
+  "optionGroups": [
+    {
+      "id": 101,
+      "title": "How about adding more flavor to your burger?",
+      "multichoice": true,
+      "required": false
+    },
+    {
+      "id": 102,
+      "title": "How much ketchup do you like?",
+      "multichoice": false,
+      "required": true
+    },
+    {
+      "id": 103,
+      "title": "How much mustard do you like?",
+      "multichoice": false,
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 301,
+      "name": "Green juice",
+      "price": 4.50
+    },
+    {
+      "id": 302,
+      "name": "Orange juice",
+      "price": 4.50
+    },
+    {
+      "id": 303,
+      "name": "Fruit cocktail",
+      "price": 4.50
+    },
+    {
+      "id": 304,
+      "name": "Plum juice",
+      "price": 4.50
+    },
+    {
+      "id": 305,
+      "name": "Strawberry juice",
+      "price": 5.00
+    },
+    {
+      "id": 306,
+      "name": "Kiwi juice",
+      "price": 4.99
+    },
+    {
+      "id": 307,
+      "name": "Passion fruit juice",
+      "price": 4.50
+    },
+    {
+      "id": 308,
+      "name": "Lemonade",
+      "price": 2.99
+    },
+    {
+      "id": 309,
+      "name": "Carrot juice",
+      "price": 2.25
+    }
+  ]
+}

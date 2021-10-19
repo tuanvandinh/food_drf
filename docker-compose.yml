@@ -25,6 +25,7 @@ services:
       - DB_NAME=food_drf
       - DB_USER=postgres
       - DB_PASS=postgres
+      - DJANGO_SETTINGS_MODULE=home.settings
     depends_on:
       - db
 

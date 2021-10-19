@@ -1,0 +1,16 @@
+{
+  "optionGroups": [
+    {
+      "id": 301,
+      "title": "How much sugar do you like?",
+      "multichoice": false,
+      "required": true
+    },
+    {
+      "id": 302,
+      "title": "Would you like to add ice?",
+      "multichoice": false,
+      "required": true
+    }
+  ]
+}

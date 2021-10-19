@@ -9,17 +9,23 @@ class ItemGroup(models.Model):
     date_created = models.DateTimeField(auto_now_add=True)
     date_modified = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return f"{self.name}"
+
 
 class Item(models.Model):
     item_group = models.ForeignKey(
         ItemGroup, null=True, on_delete=models.CASCADE, editable=True
     )
     name = models.CharField(max_length=64, null=True)
-    image = models.ImageField(blank=True, null=True)
+    image = models.ImageField(blank=True, null=True, upload_to="media/")
     price = models.DecimalField(max_digits=9, decimal_places=2)
     description = models.TextField(max_length=300, blank=True, null=True)
     date_created = models.DateTimeField(auto_now_add=True)
     date_modified = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.name}"
 
 
 class AddOn(models.Model):
@@ -30,3 +36,6 @@ class AddOn(models.Model):
     description = models.TextField(max_length=300, blank=True, null=True)
     date_created = models.DateTimeField(auto_now_add=True)
     date_modified = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.name}"

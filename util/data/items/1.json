@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": 101,
+      "name": "Barbecue burger",
+      "price": 3.99
+    },
+    {
+      "id": 102,
+      "name": "Milanese steak",
+      "price": 4.50
+    },
+    {
+      "id": 103,
+      "name": "Flambe meat",
+      "price": 4.99
+    },
+    {
+      "id": 104,
+      "name": "Cheddar cheese and white sauce",
+      "price": 5.00
+    },
+    {
+      "id": 105,
+      "name": "Spicy burger",
+      "price": 2.99
+    },
+    {
+      "id": 106,
+      "name": "Cheeseburger with fries",
+      "price": 4.99
+    },
+    {
+      "id": 107,
+      "name": "Light burger",
+      "price": 1.99
+    },
+    {
+      "id": 108,
+      "name": "Vegetarian",
+      "price": 2.75
+    }
+  ]
+}

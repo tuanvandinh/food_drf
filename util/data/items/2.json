@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 201,
+      "name": "Chocolate cupcake",
+      "price": 4.25
+    },
+    {
+      "id": 202,
+      "name": "Strawberry cake",
+      "price": 3.50
+    },
+    {
+      "id": 203,
+      "name": "Banana petit gateau",
+      "price": 4.99
+    },
+    {
+      "id": 204,
+      "name": "Chocolate pie",
+      "price": 3.50
+    },
+    {
+      "id": 205,
+      "name": "Ice cream",
+      "price": 2.99
+    }
+  ]
+}

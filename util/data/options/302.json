@@ -1,0 +1,24 @@
+{
+  "options": [
+    {
+      "id": 30201,
+      "name": "No ice",
+      "price": 0
+    },
+    {
+      "id": 30202,
+      "name": "Minimum ice",
+      "price": 0
+    },
+    {
+      "id": 30203,
+      "name": "Normal ice",
+      "price": 0
+    },
+    {
+      "id": 30204,
+      "name": "Maximum ice",
+      "price": 0
+    }
+  ]
+}

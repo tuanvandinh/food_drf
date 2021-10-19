@@ -1,0 +1,16 @@
+{
+  "itemGroups": [
+    {
+      "id": 1,
+      "name": "Hamburger"
+    },
+    {
+      "id": 2,
+      "name": "Dessert"
+    },
+    {
+      "id": 3,
+      "name": "Juice"
+    }
+  ]
+}
